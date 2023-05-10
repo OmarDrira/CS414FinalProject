@@ -27,3 +27,6 @@ The LSTM model shows reasonable performance in predicting the closing prices of 
 
 ## How to Run the Code
 To run the code, you need to upload the notebook `Cs414FinalProjectExecutiveReport.ipynb` into Google Colab, along with the dataset `XRP-USD.csv`. You can follow the steps in the recorded video tutorial in this link [Cs414FinalProjectYoutubeTutorial](https://youtu.be/aZnYOdqEge0) to execute the code step-by-step. The video tutorial explains the necessary packages to import, data preprocessing, LSTM model building, training, and evaluation, and finally, the visualization of the model's performance.
+
+### Note
+This project was inspired by [Cryptocurrency-Prediction-with-Artificial-Intelligence](https://github.com/emirhanai/Cryptocurrency-Prediction-with-Artificial-Intelligence).
