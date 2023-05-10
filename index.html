@@ -12,7 +12,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
-			<a class="navbar-brand" href="#">Project Name</a>
+			<a class="navbar-brand" href="#">XRP Price Prediction</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -38,28 +38,28 @@
 	<section id="problem" class="py-5 bg-light">
 		<div class="container">
 			<h2>Problem Overview</h2>
-			<p>Write a brief overview of the problem you solved in the project here.</p>
+			<p>In this project, the main problem addressed was the prediction of closing prices for the XRP cryptocurrency. The volatility of cryptocurrency markets poses a challenge for accurate price forecasting, making it crucial for investors to have reliable predictions for decision-making purposes. The objective was to develop a machine learning model, specifically an LSTM neural network, to forecast the closing prices of XRP. By solving this problem, the project aimed to provide valuable insights and predictions to aid individual and institutional investors in navigating the cryptocurrency market effectively.</p>
 		</div>
 	</section>
 	
 	<section id="data" class="py-5">
 		<div class="container">
 			<h2>Data Overview</h2>
-			<p>The project utilized a dataset containing daily XRP/USD prices spanning from 2017 to 2023.</p>
+			<p>The project utilized a dataset containing daily XRP/USD prices spanning from 2017 to 2023. The data was collected from the XRP USD (XRP-USD) price history and historical data provided by Yahoo! Finance. The dataset included various features such as Date, Open, High, Low, Close, and Volume. To ensure robust model training and evaluation, the data was divided into three sets: training, validation, and testing. Exploratory data analysis techniques, including line plots, were employed to gain a better understanding of the price trends within each set. Additionally, feature selection and engineering were performed by using a window of prior closing prices (5 days) as input to the LSTM model. Normalization techniques such as zero-base normalization or min-max normalization were applied to enhance training efficiency. Overall, the dataset provided the necessary historical price information for training and evaluating the predictive models.</p>
 		</div>
 	</section>
 	
 	<section id="model" class="py-5 bg-light">
 		<div class="container">
 			<h2>Model Overview</h2>
-			<p>Write a brief overview of the model you used in the project here.</p>
+			<p>An LSTM (Long Short-Term Memory) neural network was employed for XRP price prediction. The LSTM model consisted of 50 neurons and included a dropout layer to prevent overfitting. The objective was to forecast the closing price of XRP by using a window of the previous five closing prices as input. The model's performance was evaluated using metrics such as mean absolute error (MAE), mean squared error (MSE), and R-squared (R2). Additionally, trading simulations and visual comparisons were used to assess the model's performance. The project also explored variations of the model, including predicting price differences and utilizing previous predictions to forecast future prices. The LSTM model demonstrated its potential for providing accurate predictions in the cryptocurrency market and showed advantages in real-world applications..</p>
 		</div>
 	</section>
 	
 	<section id="results" class="py-5">
 		<div class="container">
 			<h2>Results Overview</h2>
-			<p>Write a brief overview of the results you obtained in the project here.</p>
+			<p>The results of the project revealed important findings regarding the performance of LSTM models for XRP price prediction. The initial model, despite providing seemingly accurate predictions, had a flaw in its structure as it used testing data to predict future prices, resulting in delayed predictions. A second model, designed to confirm the flaw, failed to predict price differences effectively. To address the bias, a third model was introduced, using previous predictions to forecast future prices. Although less accurate than the first model, it showed better suitability for real-world applications and even outperformed the first model in trading simulations.</p>
 		</div>
 	</section>
 	
