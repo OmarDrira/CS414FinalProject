@@ -17,7 +17,8 @@ The LSTM model shows reasonable performance in predicting the closing prices of 
 ## Repo Contents
 - `README.md`: Description of the project and its contents
 - `XRP-USD.csv`: The dataset used in the project
-- `FinalProjectCS414.ipynb`: Colab Notebook containing the code used for the project
+- `FinalProjectCS414.ipynb`: Colab Notebook containing the code used for the project that needs to be downloaded
+- `FinalProjectCS414(can be accessed directly on google colab).ipynb`: Colab Notebook containing the code used for the project that can be opened directly in google colab
 - [Project Website](https://omardrira.github.io/CS414FinalProject/) : the Github static website for the project
 - [Cs414FinalProjectYoutubeTutorial](https://youtu.be/aZnYOdqEge0): A recorded video tutorial explaining how to run the code.
 - `Cs414FinalProjectExecutiveReport.pdf`: an executive report for the project
